@@ -1,0 +1,6 @@
+#! /usr/bin/env ruby
+
+require_relative "../lib/foo_service"
+require "pry"
+
+Pry.start

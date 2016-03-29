@@ -1,0 +1,14 @@
+/config/database.yml
+/config/unspeakable/*
+/tags
+/coverage
+/tmp
+/config/unspeakable
+.env
+
+.bundle/config
+.idea
+
+*.log
+*.swp
+*.swo

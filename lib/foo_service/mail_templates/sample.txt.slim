@@ -1,0 +1,19 @@
+' Hi #{user_name},
+
+' #{new_items_count} #{new_items_count == 1 ? 'item' : 'items'}
+' have been added to your #{label}: #{saved_search_name}
+' #{digest_type == 'daily' ? 'today' : 'this week'}.
+' You can view more details and respond here:
+
+= saved_search_url
+' 
+' Thanks,
+
+' The Reevoo Team
+
+
+' ----------------------
+' This service is powered by Reevoo. Reevoo is an independent, trusted review and reference website operated by Reevoo Limited,
+' registered office Reevoo, Friars Bridge Court, 41-45 Blackfriars Road, London, SE1 8NZ, England, registered in England no. 5375593.
+' Too many (or too few) alerts? Manage your alerts at: 
+= manage_alerts_url

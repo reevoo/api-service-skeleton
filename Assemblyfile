@@ -1,0 +1,16 @@
+[application]
+name = "Foo service"
+repo = "quay.io/reevoo/foo_service"
+
+[build]
+builder = "ruby"
+script = [
+  "bundle exec rake db:migrate",
+  "bundle exec rake",
+]
+
+[build.env]
+RACK_ENV = "test"
+
+[build.service.postgres]
+version = '9.4.1'

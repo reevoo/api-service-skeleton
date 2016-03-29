@@ -1,0 +1,336 @@
+GIT
+  remote: https://github.com/reevoo/rack-protection
+  revision: 4b3dc577e7708c298b5ace31c1d19b5acde3cb66
+  specs:
+    rack-protection (1.5.3)
+      rack
+
+GIT
+  remote: https://github.com/rubysec/bundler-audit
+  revision: 0961853eac0e64da45b4276b0a6408469964d099
+  specs:
+    bundler-audit (0.5.0)
+      bundler (~> 1.2)
+      thor (~> 0.18)
+
+GEM
+  remote: https://gems.reevoocloud.com/
+  specs:
+    activesupport (4.2.6)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    addressable (2.4.0)
+    aggregation_pipeline (1.2.1)
+      bunny (~> 1.7)
+      dogstatsd-ruby (~> 1.6)
+      mysql2 (~> 0.3)
+      sequel (~> 4.22)
+    amq-protocol (1.9.2)
+    archive-zip (0.7.0)
+      io-like (~> 0.3.0)
+    ast (2.2.0)
+    astrolabe (1.3.1)
+      parser (~> 2.2)
+    awesome_print (1.6.1)
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    builder (3.2.2)
+    bunny (1.7.1)
+      amq-protocol (~> 1.9.2)
+    byebug (8.2.2)
+    capistrano (3.4.0)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (~> 1.3)
+    capistrano-bundler (1.1.4)
+      capistrano (~> 3.1)
+      sshkit (~> 1.2)
+    capistrano-rbenv (2.0.4)
+      capistrano (~> 3.1)
+      sshkit (~> 1.3)
+    capybara (2.6.2)
+      addressable
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    capybara-angular (0.1.0)
+      capybara
+    childprocess (0.5.9)
+      ffi (~> 1.0, >= 1.0.11)
+    chromedriver-helper (1.0.0)
+      archive-zip (~> 0.7.0)
+      nokogiri (~> 1.6)
+    chronic (0.10.2)
+    client_portal_api_client (0.2.7)
+      activesupport (~> 4.2, >= 4.2.4)
+      json (~> 1.8, >= 1.8.3)
+      jwt (~> 1.5, >= 1.5.1)
+      rest-client (~> 1.8, >= 1.8.0)
+    cliver (0.3.2)
+    coderay (1.1.1)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    diff-lcs (1.2.5)
+    docile (1.1.5)
+    dogstatsd-ruby (1.6.0)
+    domain_name (0.5.20160310)
+      unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.1.1)
+    elasticsearch (1.0.15)
+      elasticsearch-api (= 1.0.15)
+      elasticsearch-transport (= 1.0.15)
+    elasticsearch-api (1.0.15)
+      multi_json
+    elasticsearch-transport (1.0.15)
+      faraday
+      multi_json
+    encryption (0.2.3)
+    equalizer (0.0.11)
+    faraday (0.9.2)
+      multipart-post (>= 1.2, < 3)
+    ffi (1.9.10)
+    find_a_port (1.0.1)
+    grape (0.15.0)
+      activesupport
+      builder
+      hashie (>= 2.1.0)
+      multi_json (>= 1.3.2)
+      multi_xml (>= 0.5.2)
+      rack (>= 1.3.0)
+      rack-accept
+      rack-mount
+      virtus (>= 1.0.0)
+    grape-entity (0.5.0)
+      activesupport
+      multi_json (>= 1.3.2)
+    grape_logging (1.2.1)
+      grape
+    hashie (3.4.3)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    i18n (0.7.0)
+    ice_nine (0.11.2)
+    io-like (0.3.0)
+    json (1.8.3)
+    jwt (1.5.4)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    letter_opener (1.4.1)
+      launchy (~> 2.2)
+    logstash-event (1.2.02)
+    mail (2.6.4)
+      mime-types (>= 1.16, < 4)
+    method_source (0.8.2)
+    mime-types (2.99.1)
+    mini_portile2 (2.0.0)
+    minitest (5.8.4)
+    multi_json (1.11.2)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    mysql2 (0.4.3)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (3.1.1)
+    netrc (0.11.0)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    pact (1.9.0)
+      awesome_print (~> 1.1)
+      find_a_port (~> 1.0.1)
+      json
+      pact-mock_service (~> 0.7)
+      pact-support (~> 0.5)
+      rack-test (~> 0.6.2)
+      randexp (~> 0.1.7)
+      rspec (>= 2.14)
+      term-ansicolor (~> 1.0)
+      thor
+      webrick
+    pact-mock_service (0.8.1)
+      find_a_port (~> 1.0.1)
+      json
+      pact-support (~> 0.5.3)
+      rack
+      rack-test (~> 0.6.2)
+      rspec (>= 2.14)
+      term-ansicolor (~> 1.0)
+      thor
+      webrick
+    pact-support (0.5.4)
+      awesome_print (~> 1.1)
+      find_a_port (~> 1.0.1)
+      json
+      rack-test (~> 0.6.2)
+      randexp (~> 0.1.7)
+      rspec (>= 2.14)
+      term-ansicolor (~> 1.0)
+      thor
+    parser (2.3.0.7)
+      ast (~> 2.2)
+    pg (0.18.4)
+    poltergeist (1.9.0)
+      capybara (~> 2.1)
+      cliver (~> 0.3.1)
+      multi_json (~> 1.0)
+      websocket-driver (>= 0.2.0)
+    pony (1.11)
+      mail (>= 2.0)
+    powerpack (0.0.9)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-byebug (3.3.0)
+      byebug (~> 8.0)
+      pry (~> 0.10)
+    puma (3.2.0)
+    rack (1.6.4)
+    rack-accept (0.4.5)
+      rack (>= 0.4)
+    rack-cors (0.4.0)
+    rack-mount (0.8.3)
+      rack (>= 1.0.0)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    racksh (1.0.0)
+      rack (>= 1.0)
+      rack-test (>= 0.5)
+    rainbow (2.1.0)
+    rake (11.1.2)
+    randexp (0.1.7)
+    reevoocop (0.0.8)
+      rubocop (= 0.28.0)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.4)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
+    rubocop (0.28.0)
+      astrolabe (~> 1.3)
+      parser (>= 2.2.0.pre.7, < 3.0)
+      powerpack (~> 0.0.6)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.4)
+    ruby-progressbar (1.7.5)
+    rubyzip (1.2.0)
+    rv-logstasher (1.3.2)
+      logstash-event (~> 1.2)
+    selenium-webdriver (2.53.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    sentry-raven (0.15.6)
+      faraday (>= 0.7.6)
+    sequel (4.32.0)
+    shotgun (0.9.1)
+      rack (>= 1.0)
+    simplecov (0.11.2)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    slim (3.0.6)
+      temple (~> 0.7.3)
+      tilt (>= 1.3.3, < 2.1)
+    slop (3.6.0)
+    speakeasy (2.3.2)
+      activesupport
+      encryption (= 0.2.3)
+    sshkit (1.9.0)
+      net-scp (>= 1.1.2)
+      net-ssh (>= 2.8.0)
+    temple (0.7.6)
+    term-ansicolor (1.3.2)
+      tins (~> 1.0)
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    tilt (2.0.2)
+    timecop (0.8.0)
+    tins (1.9.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    webrick (1.3.1)
+    websocket (1.2.2)
+    websocket-driver (0.6.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
+    whenever (0.9.4)
+      chronic (>= 0.6.3)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aggregation_pipeline (~> 1.2.0)
+  bundler-audit!
+  capistrano (~> 3.4.0)
+  capistrano-bundler (~> 1.1.4)
+  capistrano-rbenv (~> 2.0)
+  capybara-angular (= 0.1.0)
+  chromedriver-helper
+  client_portal_api_client
+  dotenv
+  elasticsearch
+  grape (~> 0.15.0)
+  grape-entity
+  grape_logging
+  jwt
+  letter_opener
+  pact
+  pg
+  poltergeist
+  pony
+  pry-byebug
+  puma
+  rack-cors
+  rack-protection!
+  rack-test
+  racksh
+  rake
+  reevoocop
+  rest-client
+  rspec
+  rv-logstasher
+  selenium-webdriver
+  sentry-raven
+  sequel
+  shotgun
+  simplecov
+  slim
+  speakeasy (= 2.3.2)
+  timecop
+  whenever
+
+BUNDLED WITH
+   1.11.2

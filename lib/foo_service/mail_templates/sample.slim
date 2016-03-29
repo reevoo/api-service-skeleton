@@ -1,0 +1,45 @@
+html
+  head
+    meta charset="utf-8" /
+    title Fast Response: #{digest_type.humanize} Digest
+    css:
+      | font[size='2']{ font-size: 13px; }
+  body bgcolor="#dddddd"
+    table align="center" bgcolor="#FFFFFF" width="620"
+      tr
+        td width="60"  &nbsp;
+        td colspan="2" height="80" style=("border-bottom: 1px solid #F4F4F4;")
+          img border="0" src="http://images.reevoo.com/assets/en-GB/reevoo_logo/130x75.png" width="130" height="75"
+        td width="60"  &nbsp;
+      tr
+        td width="60"  &nbsp;
+        td valign="top" width="420"
+          font face="arial" size="2"
+            h2 Hi #{user_name},
+            p
+              ' #{new_items_count} #{new_items_count == 1 ? 'item' : 'items'}
+              ' have been added to your #{label}: #{saved_search_name}
+              ' #{digest_type == 'daily' ? 'today' : 'this week'}.
+            p
+              ' You can view more details and respond here:
+              a href=saved_search_url = saved_search_url
+            p
+              ' Thanks,
+            p
+              ' The Reevoo Team
+        td width="420" &nbsp;
+        td width="60"  &nbsp;
+      tr
+        td colspan="4" height="20" style=("border-top: 2px solid #FF9800;")  &nbsp;
+      tr
+        td width="60"  &nbsp;
+        td colspan="2"
+          font color="#999999" face="arial" size="1"
+            ' This service is powered by Reevoo. Reevoo is an independent, trusted review and reference website operated by Reevoo Limited,
+            ' registered office Reevoo, Friars Bridge Court, 41-45 Blackfriars Road, London, SE1 8NZ, England, registered in England no. 5375593.
+            ' Too many (or too few) alerts? 
+            a href=manage_alerts_url
+              ' Manage your alerts here.
+        td width="60"  &nbsp;
+      tr
+        td colspan="4" height="30"  &nbsp;
