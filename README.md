@@ -92,7 +92,7 @@ rake
 ## Config
 
 Config is set up with environment variables. To manage configuration in development and testing environment we use
-(dotenv)[https://github.com/bkeepers/dotenv] library.
+[dotenv](https://github.com/bkeepers/dotenv) library.
 See the configuration variables required and the description for each one in [.env.example](.env.example).
 
 ## Deployment to staging
