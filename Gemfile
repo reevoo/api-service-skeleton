@@ -1,5 +1,6 @@
 source "https://gems.reevoocloud.com"
 
+# REQUIRED GEMS
 gem "grape", "~> 0.15.0"
 gem "grape-entity"
 gem "sequel"
@@ -9,19 +10,19 @@ gem "rack-cors"
 gem "puma"
 gem "dotenv"
 gem "rest-client"
-gem "whenever", require: false
 gem "rack-protection", git: "https://github.com/reevoo/rack-protection"
 gem "rv-logstasher"
 gem "grape_logging"
 gem "sentry-raven"
 
-# the gems bellow you maybe don't need
+# OPTIONAL GEMS, feel free to remove the gems below if you don't need them
 gem "pony"
 gem "elasticsearch"
 gem "speakeasy", "2.3.2"
 gem "aggregation_pipeline", "~> 1.2.0", require: false
 gem "client_portal_api_client"
 gem "jwt"
+gem "whenever", require: false
 
 
 group :development, :test do

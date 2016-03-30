@@ -22,6 +22,7 @@ API Service Skeleton serves as a template for any future API services build in R
 
 * [Unspeakable](https://github.com/reevoo/unspeakable) with [Speakeasy](https://github.com/reevoo/speakeasy) - secure storage (used mainly for customer emails)
 * [Pony](https://github.com/benprew/pony) - emailing library
+* [Whenever](https://github.com/javan/whenever) - cron jobs definition
 * [ElasticSearch](https://www.elastic.co/products/elasticsearch) with [Ruby client](https://github.com/elastic/elasticsearch-ruby) - for fulltext search
 * [Client library for CP admin API](https://github.com/reevoo/client_portal_api_client_gem)
 * [ruby-jwt](https://github.com/jwt/ruby-jwt) - library for handling JSON Web Tokens
